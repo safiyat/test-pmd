@@ -50,6 +50,7 @@ SRCS-$(CONFIG_RTE_LIBRTE_CMDLINE) += cmdline.c
 SRCS-$(CONFIG_RTE_LIBRTE_CMDLINE) += cmdline_flow.c
 SRCS-y += config.c
 SRCS-y += iofwd.c
+SRCS-y += ipswap.c
 SRCS-y += macfwd.c
 SRCS-y += macswap.c
 SRCS-y += flowgen.c
